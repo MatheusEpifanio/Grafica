@@ -1,0 +1,370 @@
+*
+{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+body
+{
+font-family:"Arial", sans-serif;
+overflow-x: hidden;
+
+}
+
+
+
+#conteiner
+{
+    width: 100%;
+    border: red solid 1px; 
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.centralizar
+{
+text-align: center;
+        
+}
+
+
+
+.h1-inline h1{
+ display: inline;   
+}
+
+.titulo-azul{
+color: rgb(0,200,250);
+ font-size: 2.8em;
+}
+
+.titulo-branco{
+color: white;
+}
+
+
+.botton-border
+{
+margin: 70px  530px 0px 530px;
+border-bottom: solid #ccc 1.3px; 
+}
+
+.clear
+{
+
+    clear: both;
+ }
+    
+
+
+
+/* começo menu */
+#cabecalho
+{
+/* background-image: url(imagem/header.jpg); */
+height: 400px;
+border: blue solid 2px;
+
+
+}
+
+
+
+
+#menu-centro
+{
+position: fixed;
+top: 0px;
+width: 100%;
+
+}
+
+
+#menu
+{
+margin: 0 auto;
+min-width: 990px;
+background-color:  black;
+height: 100px;
+border-radius: 7px;
+width: 1140px;
+}
+
+#menu ul 
+{
+text-align:end;
+padding: 46px 50px;
+}
+
+#menu ul li
+{
+display: inline;
+margin-left: 50px;
+margin-right: 40px;
+color: white;
+
+}
+
+
+
+#menu ul li:hover{
+border-bottom: 2px solid orangered ;
+padding-bottom:  5px;
+
+
+
+}
+
+#logo{
+float: left;
+margin: 20px;
+margin-left: 28px;
+
+}
+
+/* fim menu */
+
+/* começo home */
+#centro-imagens{
+width: 980px;
+margin: 10px auto;
+
+}
+
+.imagens{
+float: left;
+
+
+
+}
+
+.imagens img{
+ width: 225px;
+ height: 163px;
+ padding: 10px;
+
+    
+}
+
+
+/* fim home */
+
+
+
+/* começo sobre nos */
+
+#sobrenos{
+   
+background-color: rgba(240, 240, 240, 0.726);
+}
+
+#sobrenos p 
+{
+    width: 1125px;
+    color: #959595;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    height: 158px;
+}
+
+
+
+.imagem-sobrenos
+{
+
+margin: 70px auto;
+width: 180px;  
+ 
+}
+
+
+
+
+
+
+
+/* fim sobre nos */
+
+
+/* comerço alguns serviços */
+
+
+#alguns-serviços{
+background-image: url(imagem/blog-bg.jpg) ;
+
+}
+#serviços{
+background-color: white;
+width: 900px;
+margin: 50px auto;
+
+
+}
+
+.serviços-imgs{
+border: red solid 2px;
+
+}
+
+
+.serviços-imgs img{
+float: left;
+width: 150px;
+height: 150px;
+}
+
+.serviços-texto{
+color: #959595;
+font-size: 0.8em;
+line-height: 26px;
+text-align: center;
+width: 200px;
+position: relative;
+top: -142px;
+left: 159px;
+}
+
+.serviços-texto h3{
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+/* fim alguns serviços */
+
+
+
+
+
+/* começo novidades */
+
+#novidade
+{margin-bottom: 100px;
+}
+
+#email-novidade input[type = email]
+{
+width: 500px;
+height: 50px;
+
+}
+
+
+
+#email-novidade input[type = submit]
+{
+
+height: 55px;
+width: 212px;
+background: #7EC3BB;
+letter-spacing: 2px;
+border: none;
+font-size: 16px;
+
+}
+
+
+#email-novidade input[type = submit]:hover{
+    background: #4cada2;
+}
+
+/* fim novidades */
+
+
+
+#contato input, #contato textarea
+{
+    
+    width: 1100px;
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+
+#contato input[type=text]
+{
+border-radius: 4px
+
+}
+
+
+#contato input[type = submit]
+{
+width: 1110px;
+border: solid 1.2px rgb(148, 148, 148);
+height: 25px;
+
+
+}
+
+
+
+#contato input[type = submit]:hover{
+background-color: #A6F4FF;
+
+border: solid 1.2px rgb(71, 149, 175);
+
+
+}
+
+
+
+#contato textarea
+{
+width:  1103px; 
+
+}
+
+#contato-centro
+{
+width: 1100px;
+margin: 0 auto;
+
+}
+
+
+
+
+
+/* começo whats */
+
+
+#whats
+{ 
+position: fixed;
+bottom: 20px;
+right: 25px;
+
+}
+ 
+#whats img{
+width: 80px;
+height: 80px;
+
+}
+
+
+/* fim whats */
+
+
+
+#direitos
+{
+margin-top: 50px;
+background-color:rgba(240, 240, 240, 0.726);
+padding: 20px;
+font-size: 0.8em;
+
+}
